@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/lightgrey"
+    tools:context=".MainActivity5" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        
+        <TextView
+	        android:id="@+id/t"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="20dp"
+	        android:gravity="center"
+	        android:layout_marginTop="4dp"
+	        android:background="#e6eef0"
+	        android:text="Fund Transfer" />
+    </LinearLayout>
+
+   <ScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="40dp"
+       android:padding="15dp"
+       >
+        <LinearLayout 
+        	android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+			    <TextView 
+			        android:id="@+id/t61"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp"
+			        android:text="Benificery Name"/>
+			    <EditText
+			        android:id="@+id/e61" 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="FirstName LastName"/>
+			    <TextView 
+			        android:id="@+id/t62"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="Benificery Account Number"/>
+			     <EditText 
+			         android:id="@+id/e62"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="91xxxxxxxx90"/>
+			    <TextView 
+			        android:id="@+id/t63"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="Benificery IFSC Code"/>
+			     <EditText 
+			         android:id="@+id/e63"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="CUB1234"/>
+			     <TextView 
+			         android:id="@+id/t64"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="Benificery Mobile Number"/>
+			     <EditText 
+			         android:id="@+id/e64"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="98xxxxxx98"/>
+			    <TextView 
+			         android:id="@+id/t65"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="UPI ID"/>
+			     <EditText 
+			         android:id="@+id/e65"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="abc@okaxis"/>
+			    <TextView 
+			        android:id="@+id/t66"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="Transaction Amount"/>
+			     <EditText 
+			         android:id="@+id/e66"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:hint="2000"/>
+			      <TextView 
+			          android:id="@+id/t67"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:text="Enter Password"/>
+			     <EditText 
+			         android:id="@+id/e67"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:inputType="textPassword"
+			        android:hint="********"/>
+			      
+			     <Button 
+			         android:id="@+id/b61"
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:layout_marginTop="30dp"
+			         android:textStyle="bold"
+			         android:text="Transfer!"/>
+     		</LinearLayout>
+     </ScrollView>
+    
+</RelativeLayout>

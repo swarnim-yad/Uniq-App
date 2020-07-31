@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        
+        <TextView
+	        android:id="@+id/t"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textSize="20dp"
+	        android:gravity="center"
+	        android:layout_marginTop="9dp"
+	        android:text="Uniq Payments Registration" />
+    </LinearLayout>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="#38ACEC">
+    
+	    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	   	android:orientation="vertical"
+	    android:padding="25dp" >
+	        
+		    
+		    <TextView
+		        android:id="@+id/t21"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="5dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Name" />
+		    <EditText
+		        android:id="@+id/e21"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="FirstName LastName" />
+		    <TextView
+		        android:id="@+id/t22"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Email Id" />
+		    <EditText
+		        android:id="@+id/e22"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="abc@gmail.com" />
+		    <TextView
+		        android:id="@+id/t23"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Registred Mobile Number With Bank" />
+		    <EditText
+		        android:id="@+id/e23"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="98******76" />
+		    <TextView
+		        android:id="@+id/t24"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Bank Name" />
+		   
+		    <EditText
+		        android:id="@+id/e24"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="Sate Bank Of India" />
+		    <TextView
+		        android:id="@+id/t25"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Bank Account Number" />
+		   
+		    <EditText
+		        android:id="@+id/e25"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="18xxxxxxxx91" />
+		    <TextView
+		        android:id="@+id/t26"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Set Password" />
+		    <EditText
+		        android:id="@+id/e26"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="*******"
+		        android:inputType="textVisiblePassword"
+		         />
+		    <TextView
+		        android:id="@+id/t27"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"
+		        android:text="Confirm Password" />
+		    <EditText
+		        android:id="@+id/e27"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColorHint="#FFF"
+		        android:hint="*******"
+		        android:inputType="textPassword"/>
+		    <Button 
+		        android:id="@+id/b21"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="SUBMIT"
+		        android:textColor="#FFF"
+		        android:textStyle="bold"/>
+	    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

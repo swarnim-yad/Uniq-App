@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/blackback"
+    tools:context=".MainActivity2" >
+   	<TextView 
+   	    android:id="@+id/t31"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center"
+   	    android:textStyle="bold"
+   	    android:textSize="20dp"
+   	    android:textColor="#FFF"
+   	    android:text="Welcome abc"/>
+
+    <Button
+        android:id="@+id/b31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFF"
+        android:text="Change Password" />
+
+    <Button 
+        android:id="@+id/b32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textColor="#FFF"
+        android:text="Check Balance"/>
+    <Button 
+        android:id="@+id/b33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textColor="#FFF"
+        android:text="Fund Transfer"/>
+    <Button 
+        android:id="@+id/b34 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:textColor="#FFF"
+        android:text="LogOut"/>
+</RelativeLayout>
